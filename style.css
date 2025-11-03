@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitcount Grid Single ", sans-serif
+}
+
+.nav-links{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.left-links, .right-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 3rem;
+    gap: 10rem;
+    
+}
+
+.logo{
+    font-family: "BBH Sans Hegarty" , sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.logo span{
+    font-family: "BBH Sans Hegarty" , sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    background: red;
+}
+
+.left-links li{
+    list-style: none;
+    
+}
+.left-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+.left-links a:hover{
+    text-decoration: underline;
+    line-clamp: 2px;
+    color: rgb(56, 36, 154);
+}
+
+.btn-1,.btn-2{
+    border: 1.7px dashed white;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    background: black;
+    /* background: linear-gradient(38deg,rgb(0, 76, 255),rgb(32, 0, 128)); */
+    color: white;
+    font-size: medium;
+}
+
+.search-part{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.search-part video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.search-part, .video-content{
+    position: relative;
+    z-index: 2;
+}
+
+.search-part h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.search-part p {
+  font-size: 1.2rem;
+}
+
+
+.txt-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.txt-btn input {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  width: 300px;
+}
+
+.txt-btn img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.main-body{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin: 3rem;
+    width: 100%;
+}
+
+.columns{
+    display:flex;
+    gap: 1.4rem;
+}
+
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+
+.sub-text{
+    width: 350px;
+    margin-top: .7rem;
+}
+
+.botm-link{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.botm-link img{
+    width: 12px;
+    height: 12px;
+}
+
+.botm-link span:hover{
+    text-decoration: underline;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to bottom,aliceblue, whitesmoke);
+    padding-top: 1.5rem;
+}
+
+.footer-content{
+    height: 50vh;
+    
+
+}
+
+.footer-heading{
+    padding: 12px 0;
+    font-size: 19px;
+}
+
+.list li{
+    list-style: none;
+    padding: 2.4px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.copy-right{
+    margin:0;
+}
